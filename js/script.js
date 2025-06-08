@@ -42,5 +42,5 @@ noBtn.addEventListener("click", () => {
 });
 
 yesBtn.addEventListener("click", () => {
-  window.location.href = "Time.html";
+  window.location.href = "time.html";
 });
