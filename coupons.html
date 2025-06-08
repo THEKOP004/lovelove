@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gift Coupons</title>
+  <link rel="stylesheet" href="css/coupons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
+</head>
+<body class="theme-pink">
+
+<h1>🎁 Gift Coupons</h1>
+
+<!-- เลือกธีม -->
+<div style="text-align:center; margin-bottom:15px;">
+  เลือกธีม: 
+  <select id="themeSelector">
+    <option value="pink">ชมพู</option>
+    <option value="green">เขียว</option>
+    <option value="blue">ฟ้า</option>
+  </select>
+</div>
+
+<!-- แสดงคูปอง -->
+<div id="couponList"></div>
+
+<!-- เพิ่มคูปอง -->
+<form id="addCouponForm">
+  <h2>เพิ่มคูปองใหม่</h2>
+  <input type="text" id="couponTitle" placeholder="ชื่อคูปอง" required />
+  <textarea id="couponDesc" placeholder="คำอธิบายคูปอง" rows="3" required></textarea>
+  <button type="submit">เพิ่มคูปอง</button>
+</form>
+
+<script src="js/coupons.js"></script>
+</body>
+</html>

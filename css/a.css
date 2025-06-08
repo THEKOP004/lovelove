@@ -1,0 +1,56 @@
+/* สไตล์ทั้งหมดของเว็บ */
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #fcefee 0%, #fddde6 100%);
+  font-family: 'Kanit', sans-serif;
+  color: #a23e48;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px #f9c5d1;
+}
+
+p {
+  font-size: 1.5rem;
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.heart {
+  font-size: 5rem;
+  color: #e3425a;
+  animation: beat 1.5s infinite;
+  margin-bottom: 30px;
+}
+
+@keyframes beat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+.button-share {
+  background-color: #e3425a;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(227, 66, 90, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.button-share:hover {
+  background-color: #b73244;
+}

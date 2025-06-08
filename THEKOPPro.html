@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profile THEKOP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/thekop.css" />
+</head>
+<body>
+
+  <header>THEKOP memory to you</header>
+
+  <div class="memory-container">
+    <div class="memory-form">
+      <h2>เพิ่มความทรงจำใหม่ 📝</h2>
+      <input type="text" id="titleInput" placeholder="หัวข้อความทรงจำ">
+      <textarea id="textInput" rows="4" placeholder="เขียนความทรงจำของคุณ..."></textarea>
+      <input type="file" id="imageInput" accept="image/*">
+      <button class="add-btn" onclick="addMemory()">เพิ่มความทรงจำ</button>
+    </div>
+
+    <div class="memory-grid" id="memoryGrid"></div>
+  </div>
+
+  <div id="memoryModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalText"></p>
+      <img id="modalImage" src="" alt="Memory Image" style="display:none;">
+    </div>
+  </div>
+
+  <script src="js/thekop.js"></script>
+</body>
+</html>

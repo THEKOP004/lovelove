@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>You & Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/you-and-me.css">
+</head>
+<body>
+
+  <h1>📷 Our Memories</h1>
+
+  <div class="upload-section">
+    <input type="file" accept="image/*" id="uploadInput">
+    <input type="text" id="captionInput" placeholder="ใส่คำบรรยายรูปนี้ ✍️">
+    <button onclick="handleUpload()">อัปโหลดรูป 💌</button>
+    <button onclick="undoDelete()">↩️ กู้คืนรูปล่าสุด</button>
+  </div>
+
+  <div class="gallery" id="gallery"></div>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <div style="text-align:center">
+      <img id="lightbox-img" src="">
+      <div class="caption" id="caption"></div>
+    </div>
+  </div>
+
+  <script src="js/you-and-me.js"></script>
+</body>
+</html>

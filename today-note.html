@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Today Note (X Style)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/today-note.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <button id="homeBtn">🏠 หน้าแรก</button>
+      <button id="todayBtn">📝 Today Note</button>
+      <button id="memoryBtn">❤️ ความทรงจำ</button>
+    </div>
+
+    <div class="main">
+      <h1 id="mainTitle">Today Note</h1>
+      <div class="note-card">
+        <div class="note-date" id="noteDate">วันที่</div>
+        <div class="note-text" id="noteBox">กำลังโหลดโน้ต...</div>
+      </div>
+
+      <div class="nav-buttons">
+        <button class="btn" id="prevBtn">ย้อนวัน</button>
+        <button class="btn" id="nextBtn">ถัดไป</button>
+      </div>
+
+      <div class="add-note" id="addNoteSection">
+        <textarea id="newNote" rows="4" placeholder="พิมพ์โน้ตน่ารัก ๆ ให้แฟน..."></textarea>
+        <button id="addNoteBtn">เพิ่มโน้ต</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/today-note.js"></script>
+</body>
+</html>

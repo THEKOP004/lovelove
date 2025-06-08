@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>TikTok Memories (IndexedDB)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tiktok.css">
+</head>
+<body>
+
+  <div class="upload-box">
+    <input type="file" accept="video/*" id="uploadInput">
+    <input type="text" placeholder="คำอธิบายวิดีโอ..." id="captionInput">
+    <button class="upload-btn" onclick="uploadVideo()">อัปโหลด 🎬</button>
+  </div>
+
+  <div id="videos-container"></div>
+
+  <script src="js/tiktok.js"></script>
+</body>
+</html>
