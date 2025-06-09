@@ -11,6 +11,30 @@ const songs = [
     albumArt: "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1b/6c/d3/1b6cd316-fae0-fdb1-22ef-31f4d3ae83fb/cover.jpg/1200x630bb.jpg",
     audioSrc: "s2.mp3",
   },
+  {
+    title: "ได้รึเปล่า?",
+    artist: "mute.",
+    albumArt: "https://i.ytimg.com/vi/6psmkd62oD0/maxresdefault.jpg",
+    audioSrc: "s3.mp3",
+  },
+  {
+    title: "Melatonin",
+    artist: "mute.",
+    albumArt: "https://i.ytimg.com/vi/ni326FjAV6Q/maxresdefault.jpg",
+    audioSrc: "s4.mp3",
+  },
+  {
+    title: "จากกันโดยสมบูรณ์",
+    artist: "guncharlie",
+    albumArt: "https://i.ytimg.com/vi/Jdzs-qcURQE/maxresdefault.jpg",
+    audioSrc: "s5.mp3",
+  },
+  {
+    title: "เพื่อนแบบใด ( I See It )",
+    artist: "JMNK ( JustmineNika )",
+    albumArt: "https://www.dochord.com/wp-content/uploads/2025/03/%E0%B8%A9%E0%B8%A9%E0%B8%A9%E0%B9%80%E0%B8%B3%E0%B9%80%E0%B9%80%E0%B9%80%E0%B9%80%E0%B8%B3.webp",
+    audioSrc: "s6.mp3",
+  },
 ];
 
 const albumArt = document.querySelector(".album-art");
